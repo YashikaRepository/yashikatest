@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16019" started-at="2019-05-31T11:14:28Z" finished-at="2019-05-31T11:14:44Z">
+  <suite name="Default suite" duration-ms="29303" started-at="2019-06-04T06:49:23Z" finished-at="2019-06-04T06:49:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16019" started-at="2019-05-31T11:14:28Z" finished-at="2019-05-31T11:14:44Z">
+    <test name="Default test" duration-ms="29303" started-at="2019-06-04T06:49:23Z" finished-at="2019-06-04T06:49:52Z">
       <class name="bpackage.Mclass">
-        <test-method status="FAIL" signature="pop()[pri:0, instance:bpackage.Mclass@724af044]" name="pop" duration-ms="16001" started-at="2019-05-31T11:14:28Z" finished-at="2019-05-31T11:14:44Z">
+        <test-method status="FAIL" signature="pop()[pri:0, instance:bpackage.Mclass@724af044]" name="pop" duration-ms="29274" started-at="2019-06-04T06:49:23Z" finished-at="2019-06-04T06:49:52Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: /html/body/div[6]/div[2]/div/div/div/div[2]/div/table/tbody/tr/td/div/div/div[3]/div[2]/table/tbody/tr[2]/td/a/div
@@ -15,8 +15,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ADMINGR-7U78G74', ip: '192.168.1.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11356, moz:profile: C:\Users\ADMINGR-7U78G74\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e6b5bc8d-371f-49ad-845b-225cebdede7f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7900, moz:profile: C:\Users\ADMINGR-7U78G74\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f3f1d1c-a957-46b2-8f4f-389aca9dc6b7
 *** Element info: {Using=xpath, value=/html/body/div[6]/div[2]/div/div/div/div[2]/div/table/tbody/tr/td/div/div/div[3]/div[2]/table/tbody/tr[2]/td/a/div}]]>
             </message>
             <full-stacktrace>
@@ -25,8 +25,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ADMINGR-7U78G74', ip: '192.168.1.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11356, moz:profile: C:\Users\ADMINGR-7U78G74\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e6b5bc8d-371f-49ad-845b-225cebdede7f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190516215225, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7900, moz:profile: C:\Users\ADMINGR-7U78G74\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f3f1d1c-a957-46b2-8f4f-389aca9dc6b7
 *** Element info: {Using=xpath, value=/html/body/div[6]/div[2]/div/div/div/div[2]/div/table/tbody/tr/td/div/div/div[3]/div[2]/table/tbody/tr[2]/td/a/div}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
