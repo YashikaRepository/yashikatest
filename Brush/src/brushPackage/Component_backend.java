@@ -21,24 +21,25 @@ WebDriver driver = new FirefoxDriver();
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/form/div/input")).click();
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/form/input[3]")).click();
 		
-		driver.findElement(By.xpath("/html/body/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("//*[@id=\"evTempName\"]")).sendKeys("123456");
+		driver.findElement(By.xpath("/html/body/div[2]/ul/li[3]/a/i")).click();
 		
-		//html/body/div[2]/ul/li[3]/a
-		//driver.findElement(By.xpath("/html/body/div[2]/ul/li[3]/a")).click();
-
 		
 		
 		//html/body/div[2]/ul/li[3]/ul/li[2]/a
-		//driver.findElement(By.linkText("Add Project")).click();
+		driver.findElement(By.xpath("/html/body/div[2]/ul/li[3]/ul/li[2]/a")).click();
 		
 		
+		//*[@id="proName"]
 		
+		driver.findElement(By.xpath("//*[@id=\"proName\"]")).sendKeys("Project test selenium");
 		
+		//*[@id="proTypeId"]
 		
+		//driver.findElement(By.xpath("//*[@id=\"proTypeId\"]"))
+		//html/body/div[4]/div/form/div[3]
+				//driver.findElement(By.xpath("/html/body/div[4]/div/form/div[2]")).click();
 		
-		
-		
+		driver.findElement(By.xpath("//*[@id=\\\"proTypeId\\\"]")).sendKeys("/html/body/div[4]/div/form/div[3]/div[1]");
 		
 		
 		

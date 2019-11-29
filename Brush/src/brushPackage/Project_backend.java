@@ -20,8 +20,8 @@ System.setProperty("webdriver.chrome.driver", "C:\\drive\\chromedriver.exe");
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/form/div/input")).click();
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/form/input[3]")).click();
 		
-		driver.findElement(By.xpath("/html/body/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.linkText("Add Project")).click();
+		driver.findElement(By.xpath("/html/body/div[2]/ul/li[3]/a/img")).click();
+		//driver.findElement(By.linkText("Add Project")).click();
 		
 		
 
