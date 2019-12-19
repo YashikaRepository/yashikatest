@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class ManagePropert {
@@ -170,6 +171,9 @@ public void login() throws InterruptedException {
 	        Thread.sleep(1000);
 	        
 	        driver.findElement(By.xpath("//html/body/div[2]/div/div/div[6]/div/div/div[3]")).click();
+	        
+	        
+	       
 	        
 	        
 	        
