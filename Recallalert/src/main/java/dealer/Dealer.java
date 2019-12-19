@@ -10,7 +10,7 @@ public class Dealer {
 	
 	
 	
-	public class dealer_Login {
+	
 		
 		@Test
 		
@@ -35,4 +35,4 @@ public class Dealer {
 				
 				driver.findElement(By.xpath("//html/body/div[3]/div/div/div[2]/div[2]/form/div[3]/input")).click();}
 
-}}
+}

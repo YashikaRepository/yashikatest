@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Customer_Login {
 	
 	
-	           public class customer_Login {
+	          
 			
 			                     @Test
 			
@@ -35,7 +35,7 @@ public class Customer_Login {
 					
 					
 					
-			           }
+			           
 			    }
 		}
 	

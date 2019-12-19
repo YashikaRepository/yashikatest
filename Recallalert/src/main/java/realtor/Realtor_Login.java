@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 public class Realtor_Login {
 	
 	
-	public class realtor_Login {
 		
 		@Test
 		
@@ -35,5 +34,5 @@ public class Realtor_Login {
 				
 				driver.findElement(By.xpath("//html/body/div[3]/div/div/div[2]/div[2]/form/div[3]/input")).click();
 
-}}}
+}}
 	
